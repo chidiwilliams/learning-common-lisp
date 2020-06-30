@@ -1,5 +1,5 @@
-;;; Computes the value of the nth
-;;; number in the Fibonacci sequence
+;;; Iterative implementation of
+;;; nth Fibonacci number
 (defun fibonacci (n)
   (cond
     ((= n 0) 0)
